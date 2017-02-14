@@ -74,8 +74,80 @@
 	margin-top: 70px;
 	font-size: 20px;
 	color: #6D757D;
+	text-align: left;
 }
-
-.sidebar{
+.sidebar h2{
 	font-size: 40px;
 }
+.sidebar .m-hobby{
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-size: 20px;
+}
+.hobby{
+	float: left;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 auto;
+	border: 1px solid gray;
+	margin: 10px;
+}
+/*detail*/
+.m-details{
+	height: 600px;
+	color:#6D757D;
+	text-align:center;
+	background: #4D3D47;
+	padding-top: 40px;
+}
+.introduce h2{
+	color: #C6C3C5;
+	font-weight: 300;
+	font-size: 50px;
+}
+.introduce span{
+	background: #8C868A;
+	height:1px;
+	width:20%;
+	display:inline-block;
+	vertical-align:middle;
+}
+.introduce span:nth-child(1){
+	margin-right:10px;
+}
+.introduce span:nth-child(2){
+	margin-left:10px;
+}
+.years{
+	margin-top: 30px;
+	color:#F1F0F0;
+}
+.years p{
+	padding-top:20px;
+	line-height:20px;
+	width: 45%;
+	margin:0 auto;
+}
+.years h4,.years span h4{
+	margin-top:1em;
+}
+
+/*skills*/
+.m-skill{
+	/*width: 100%;*/
+	height: 600px;
+	padding-top: 40px;
+	background:#E8EBF2;
+	text-align: center;
+}
+.m-skill .skills{
+	margin-top: 40px;
+}
+.skill-label {
+    display: inline-block;
+    width: 90px;
+    float: left;
+}
+
