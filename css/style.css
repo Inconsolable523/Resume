@@ -163,3 +163,12 @@
 	color: #E6E3E6;
 	text-align: center;
 }
+.m-contact a{
+	display: inline-block;
+	font-size: 40px;
+	color: #B9B6B8;
+	margin-top: 40px;
+}
+.m-contact a:hover{
+	color: #C3605D;
+}
