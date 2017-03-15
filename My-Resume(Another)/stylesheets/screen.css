@@ -1,16 +1,27 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../sass/screen.scss */
 body {
   font-size: 16px;
   font-family: 'Times New Roman', 'Microsoft YaHei', serif;
   word-break: break-all;
   background: #525659;
 }
+
+/* line 12, ../sass/screen.scss */
 .clear-fix {
   clear: both;
 }
+
+/* line 16, ../sass/screen.scss */
 a {
   color: #000;
   font-size: 17px;
 }
+
+/* line 22, ../sass/screen.scss */
 .long-line {
   position: absolute;
   display: block;
@@ -20,6 +31,8 @@ a {
   left: 58px;
   background: #943634;
 }
+
+/* line 33, ../sass/screen.scss */
 .icon {
   width: 35px;
   height: 35px;
@@ -27,6 +40,8 @@ a {
   position: absolute;
   left: 22px;
 }
+
+/* line 41, ../sass/screen.scss */
 .subtitle {
   position: absolute;
   left: 62px;
@@ -35,6 +50,8 @@ a {
   font-weight: 600;
   top: 2px;
 }
+
+/* line 50, ../sass/screen.scss */
 .detail-list {
   position: absolute;
   top: 44px;
@@ -42,6 +59,8 @@ a {
   right: 49px;
   line-height: 1.6;
 }
+
+/* line 58, ../sass/screen.scss */
 .top {
   position: fixed;
   background: #323639;
@@ -55,11 +74,13 @@ a {
   color: #F1F1F1;
   z-index: 99;
 }
+/* line 70, ../sass/screen.scss */
 .top .top-title {
   line-height: 50px;
   display: block;
   text-align: center;
 }
+/* line 75, ../sass/screen.scss */
 .top .top-download {
   position: absolute;
   top: 9px;
@@ -72,110 +93,158 @@ a {
   border-radius: 5px;
   font-size: 14px;
 }
+
+/* line 89, ../sass/screen.scss */
 .wrapper {
   width: 800px;
   min-height: 500px;
   background: #FFF;
   margin: 70px auto;
 }
+
+/* line 96, ../sass/screen.scss */
 .header {
   width: 690px;
   margin-left: 50px;
 }
+/* line 99, ../sass/screen.scss */
 .header .header-title {
   padding-top: 34px;
+  overflow: hidden;
 }
+/* line 102, ../sass/screen.scss */
 .header .header-title .author-name {
-  font-size: 28px;
+  font-size: 70px;
+  line-height: 150px;
 }
+/* line 106, ../sass/screen.scss */
+.header .header-title .author-image {
+  width: 150px;
+  float: right;
+}
+/* line 108, ../sass/screen.scss */
+.header .header-title .author-image img {
+  width: 100%;
+}
+/* line 112, ../sass/screen.scss */
 .header .header-title .author-intro {
   font-size: 16px;
 }
+/* line 117, ../sass/screen.scss */
 .header .header-list .header-left {
   float: left;
 }
+/* line 119, ../sass/screen.scss */
 .header .header-list .header-left ul {
   padding-left: 10px;
 }
+/* line 123, ../sass/screen.scss */
 .header .header-list .header-right {
   float: right;
 }
+/* line 126, ../sass/screen.scss */
 .header .header-list ul {
   line-height: 1.7;
 }
+
+/* line 132, ../sass/screen.scss */
 .person-info {
   position: relative;
   min-height: 130px;
 }
+/* line 135, ../sass/screen.scss */
 .person-info .icon {
-  background: url('../image/person_info_icon.png') no-repeat;
+  background: url("../image/person_info_icon.png") no-repeat;
 }
+/* line 139, ../sass/screen.scss */
 .person-info .detail-list .info-left {
   float: left;
 }
+/* line 142, ../sass/screen.scss */
 .person-info .detail-list .info-right {
   float: right;
 }
+/* line 145, ../sass/screen.scss */
 .person-info .detail-list span {
   display: block;
 }
+
+/* line 151, ../sass/screen.scss */
 .pro-skill {
   position: relative;
-  min-height: 240px;
+  min-height: 600px;
 }
+/* line 154, ../sass/screen.scss */
 .pro-skill .icon {
-  background: url('../image/pro_skill_icon.png') no-repeat;
+  background: url("../image/pro_skill_icon.png") no-repeat;
 }
+/* line 157, ../sass/screen.scss */
 .pro-skill ul {
   padding: 0;
   margin: 0;
 }
+
+/* line 163, ../sass/screen.scss */
 .open-source {
   position: relative;
-  min-height: 240px;
+  min-height: 250px;
 }
+/* line 166, ../sass/screen.scss */
 .open-source .icon {
-  background: url('../image/open_source_icon.png') no-repeat;
+  background: url("../image/open_source_icon.png") no-repeat;
 }
+/* line 170, ../sass/screen.scss */
 .open-source .detail-list ul {
   padding: 0;
   margin: 0;
 }
+/* line 174, ../sass/screen.scss */
 .open-source .detail-list .source-name {
   font-weight: bold;
   font-size: 19px;
 }
+/* line 178, ../sass/screen.scss */
 .open-source .detail-list .source-url {
   display: block;
 }
+
+/* line 184, ../sass/screen.scss */
 .honor-eva {
   min-height: 270px;
 }
+/* line 186, ../sass/screen.scss */
 .honor-eva .honor-reward {
   float: left;
   width: 350px;
   position: relative;
 }
+/* line 190, ../sass/screen.scss */
 .honor-eva .honor-reward .icon {
-  background: url('../image/honor_reward_icon.png') no-repeat;
+  background: url("../image/honor_reward_icon.png") no-repeat;
 }
+/* line 193, ../sass/screen.scss */
 .honor-eva .honor-reward .short-line {
   width: 276px;
 }
+/* line 196, ../sass/screen.scss */
 .honor-eva .honor-reward .detail-list {
   right: 0;
 }
+/* line 200, ../sass/screen.scss */
 .honor-eva .self-evaluation {
   float: right;
   width: 460px;
   position: relative;
 }
+/* line 204, ../sass/screen.scss */
 .honor-eva .self-evaluation .icon {
-  background: url('../image/self_evaluation_icon.png') no-repeat;
+  background: url("../image/self_evaluation_icon.png") no-repeat;
 }
+/* line 207, ../sass/screen.scss */
 .honor-eva .self-evaluation .short-line {
   width: 350px;
 }
+/* line 211, ../sass/screen.scss */
 .honor-eva ul {
   padding: 0;
   margin: 0;
